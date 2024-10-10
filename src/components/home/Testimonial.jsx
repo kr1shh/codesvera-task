@@ -21,18 +21,16 @@ const Testimonial = () => {
             </p>
 
             <div className="w-full flex gap-4 mt-20">
-
+              <Carousel>
                 {testimonialData.map((item, index) => (
-
-                        <TestimonialCard
-                        key={index}
-                          image={item.image}
-                          title={item.name}
-                          description={item.message}
-                        />
-
+                  <TestimonialCard
+                    key={index}
+                    image={item.image}
+                    title={item.name}
+                    description={item.message}
+                  />
                 ))}
-
+              </Carousel>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center mt-[150px]">

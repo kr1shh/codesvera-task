@@ -21,6 +21,13 @@ const testimonialData = [{
     message:"“I went from having no computer skills to being able to apply for a software engineering job at a serious company and pass their interviews, which were really rigorous. I have this career in front of me now that wasn’t even in sight before.",
     image:student2,
     rating:4
+},
+{
+    id: 3,
+    name: "Savannah Nguyen",
+    message:"“I went from having no computer skills to being able to apply for a software engineering job at a serious company and pass their interviews, which were really rigorous. I have this career in front of me now that wasn’t even in sight before.",
+    image:student2,
+    rating:4
 }]
 
 export {testimonialData}
