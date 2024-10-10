@@ -2,11 +2,12 @@ import heroBackground from "../../assets/images/hero_section.jpeg"
 import pattern from "../../assets/svg/pattern.svg"
 import { FaWhatsapp } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
+import { companiesImgs } from "../../data";
 
 const HeroSection = () => {
   return (
     <>
-      <main className="w-full flex justify-center items-center">
+      <main className="w-full flex flex-col justify-center items-center">
         <div className={`w-full flex justify-between items-center bg-no-repeat bg-cover bg-center h-screen`}
         style={{ backgroundImage: `url(${heroBackground})` }}>
           <div className="relative bg-blend-overlay bg-accent bg-opacity-65 h-full w-[60%] rounded-br-[32px] overflow-hidden">
@@ -30,6 +31,14 @@ const HeroSection = () => {
             </div>
             <img className="absolute w-full object-cover object-center opacity-[.1]" src={ pattern } alt="pattern" />
           </div>
+        </div>
+
+        <div className="w-full flex justify-center items-center gap-16 my-10">
+            {
+                companiesImgs.map((item,index)=>(
+                    <img className="w-[100px]" style={{ filter:"grayscale(100%)" }} key={ index } src={ item } alt="Course logo" />
+                ))
+            }
         </div>
       </main>
     </>

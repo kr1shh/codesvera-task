@@ -4,13 +4,11 @@ import { teamData } from "./teamData";
 import { blogData } from "./blogData";
 import { testimonialData } from "./testimonialData";
 
+const companiesImgs = [google, udemy, slack, monday, chamilo];
+
 export {
   navLinkData,
-  google,
-  udemy,
-  slack,
-  monday,
-  chamilo,
+  companiesImgs,
   teamData,
   blogData,
   testimonialData,
