@@ -1,16 +1,25 @@
-import { HeroSection,About,WhyChoose,Team,Courses, Blogs } from "../components"
+import {
+  HeroSection,
+  About,
+  WhyChoose,
+  Team,
+  Courses,
+  Blogs,
+  Testimonial,
+} from "../components";
 
 const Home = () => {
   return (
     <>
-      <HeroSection/>
+      <HeroSection />
       <About />
       <WhyChoose />
-      <Courses/>
-      <Team/>
-      <Blogs/>
+      <Courses />
+      <Team />
+      <Blogs />
+      <Testimonial />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

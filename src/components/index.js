@@ -10,6 +10,8 @@ import NavBar from "./ui/NavBar";
 import TeamCard from "./ui/TeamCard";
 import WhyCard from "./ui/WhyCard";
 import BlogCard from "./ui/BlogCard";
+import Testimonial from "./home/Testimonial";
+
 
 
 export {
@@ -24,5 +26,6 @@ export {
   TeamCard,
   Courses,
   Blogs,
-  BlogCard
+  BlogCard,
+  Testimonial
 };
