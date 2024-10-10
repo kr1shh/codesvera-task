@@ -1,10 +1,11 @@
-import { HeroSection,About } from "../components"
+import { HeroSection,About,WhyChoose } from "../components"
 
 const Home = () => {
   return (
     <>
       <HeroSection/>
       <About />
+      <WhyChoose />
     </>
   )
 }
