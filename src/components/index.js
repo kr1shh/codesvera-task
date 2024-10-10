@@ -13,6 +13,8 @@ import BlogCard from "./ui/BlogCard";
 import Testimonial from "./home/Testimonial";
 import ElearningCard from "./ui/ElearningCard";
 import TestimonialCard from "./ui/TestimonialCard";
+import CourseCard from "./ui/CourseCard";
+
 
 
 
@@ -31,5 +33,6 @@ export {
   BlogCard,
   Testimonial,
   ElearningCard,
-  TestimonialCard
+  TestimonialCard,
+  CourseCard
 };

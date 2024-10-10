@@ -30,4 +30,7 @@ const testimonialData = [{
     rating:4
 }]
 
-export {testimonialData}
+
+const courseLinks=["All Catagories","Web Desin","Web Development","Graphic Design","Digital Marketing","Illustration"]
+
+export {testimonialData,courseLinks}

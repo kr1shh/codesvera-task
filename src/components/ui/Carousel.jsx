@@ -1,9 +1,8 @@
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, A11y } from 'swiper/modules';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa6';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 

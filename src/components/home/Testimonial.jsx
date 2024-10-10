@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Carousel from "../ui/Carousel";
 import TestimonialCard from "../ui/TestimonialCard";
-import { SwiperSlide } from "swiper/react";
 import { testimonialData } from "../../data";
 
 const Testimonial = () => {
