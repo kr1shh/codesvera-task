@@ -4,7 +4,7 @@ import pattern from "../../assets/svg/about-pattern.svg"
 const About = () => {
   return (
     <>
-      <section className="w-full flex justify-center items-center py-14">
+      <section className="w-full flex justify-center items-center py-20">
         <div className="w-full flex justify-evenly items-center max-w-7xl">
           <div className="relative">
             <div className="w-[400px] overflow-hidden rounded-[30px] z-[10]">

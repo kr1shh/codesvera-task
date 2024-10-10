@@ -1,4 +1,6 @@
 import About from "./home/About";
+import { Blogs } from "./home/Blogs";
+import Courses from "./home/Courses";
 import HeroSection from "./home/HeroSection";
 import Team from "./home/Team";
 import WhyChoose from "./home/WhyChoose";
@@ -7,6 +9,7 @@ import Logo from "./ui/Logo";
 import NavBar from "./ui/NavBar";
 import TeamCard from "./ui/TeamCard";
 import WhyCard from "./ui/WhyCard";
+import BlogCard from "./ui/BlogCard";
 
 
 export {
@@ -19,4 +22,7 @@ export {
   WhyCard,
   Team,
   TeamCard,
+  Courses,
+  Blogs,
+  BlogCard
 };

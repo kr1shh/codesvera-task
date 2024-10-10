@@ -4,7 +4,7 @@ import { whyCardData } from "../../data"
 const WhyChoose = ( ) => {
   return (
     <>
-      <section className="w-full flex justify-center items-center py-14">
+      <section className="w-full flex justify-center items-center py-20">
         <div className="w-full flex flex-col justify-center items-center gap-12 max-w-7xl">
           <div className="flex flex-col gap-3 justify-center items-center">
             <h1 className="text-[40px] text-text_primary font-quicksand font-bold">
