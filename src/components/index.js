@@ -11,6 +11,7 @@ import TeamCard from "./ui/TeamCard";
 import WhyCard from "./ui/WhyCard";
 import BlogCard from "./ui/BlogCard";
 import Testimonial from "./home/Testimonial";
+import ElearningCard from "./ui/ElearningCard";
 
 
 
@@ -27,5 +28,6 @@ export {
   Courses,
   Blogs,
   BlogCard,
-  Testimonial
+  Testimonial,
+  ElearningCard
 };

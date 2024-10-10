@@ -8,7 +8,15 @@ const Testimonial = () => {
     <>
       <section className="w-full flex justify-center items-center py-20 bg-[#F5EBFE]">
         <div className="w-full flex flex-col justify-center items-center gap-12 max-w-7xl">
-          <div>Testimonial need to impelement</div>
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="text-[40px] text-text_primary font-quicksand font-bold text-center max-w-[500px]">
+              What Our Students Say About US
+            </h1>
+            <p className="font-montserrat font-normal text-[16px] text-text_primary text-center max-w-[500px] mt-5">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking.
+            </p>
+          </div>
           <div className="flex flex-col items-center justify-center">
             <h1 className="text-[40px] text-text_primary font-quicksand font-bold">
               Subscribe Our Newsletter
