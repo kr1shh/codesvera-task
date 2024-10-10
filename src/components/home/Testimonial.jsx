@@ -1,8 +1,11 @@
-import { useState } from "react"
-
+import { useState } from "react";
+import Carousel from "../ui/Carousel";
+import TestimonialCard from "../ui/TestimonialCard";
+import { SwiperSlide } from "swiper/react";
+import { testimonialData } from "../../data";
 
 const Testimonial = () => {
-    const [ email,setEmail ] = useState("")
+  const [email, setEmail] = useState("");
 
   return (
     <>
@@ -16,8 +19,23 @@ const Testimonial = () => {
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking.
             </p>
+
+            <div className="w-full flex gap-4 mt-20">
+
+                {testimonialData.map((item, index) => (
+
+                        <TestimonialCard
+                        key={index}
+                          image={item.image}
+                          title={item.name}
+                          description={item.message}
+                        />
+
+                ))}
+
+            </div>
           </div>
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center mt-[150px]">
             <h1 className="text-[40px] text-text_primary font-quicksand font-bold">
               Subscribe Our Newsletter
             </h1>
@@ -42,6 +60,6 @@ const Testimonial = () => {
       </section>
     </>
   );
-}
+};
 
-export default Testimonial
+export default Testimonial;

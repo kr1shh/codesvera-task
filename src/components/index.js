@@ -12,6 +12,7 @@ import WhyCard from "./ui/WhyCard";
 import BlogCard from "./ui/BlogCard";
 import Testimonial from "./home/Testimonial";
 import ElearningCard from "./ui/ElearningCard";
+import TestimonialCard from "./ui/TestimonialCard";
 
 
 
@@ -29,5 +30,6 @@ export {
   Blogs,
   BlogCard,
   Testimonial,
-  ElearningCard
+  ElearningCard,
+  TestimonialCard
 };

@@ -28,7 +28,7 @@ const Courses = () => {
               />
             </div>
           </div>
-          <div className=" flex flex-wrap flex-col w-[600px] h-[600px] justify-center gap-6">
+          <div className=" flex flex-wrap flex-col w-[600px] h-[600px] justify-center gap-6 mb-5">
             {
                 elearnData.map((item,index)=>(
                     <ElearningCard
